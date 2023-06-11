@@ -376,11 +376,6 @@ body{
     flex-grow: 1;
     padding: 20px 32px 20px 32px;
 }
-.card-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 .card-body h4{
     font-size: 20px;
     font-weight: 900;

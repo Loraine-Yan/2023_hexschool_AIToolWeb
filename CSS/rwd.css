@@ -1,0 +1,128 @@
+@media(max-width: 767px){
+    .logo{
+        height: 24px;
+    }
+    .navbar{
+      display: none;
+    }
+    .nav-dropdown-menu{
+        display: flex;
+        /* width: 24px;
+        height: 24px; */
+    }
+    .banner p{
+        font-size: 48px;
+    }
+    .motion{
+        justify-content: center;
+        padding-top: 180px;
+        padding-bottom: 60px;
+    }
+    .motion img{
+        width: 117px;
+    }
+    .section{
+        padding: 60px 0px 60px 0px;
+    }
+    .service-title{
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+    .service-title h2{
+        font-size: 20px;
+        width: 414px;
+    }
+    .service-title p{
+        max-width: 351px;
+        font-size: 32px;
+    }
+    .service-group{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .enterprise-title{
+        margin-bottom: 24px;
+    }
+    .enterprise-group{
+        margin-bottom: 48px;
+    }
+    .enterprise-list::before,.enterprise-list::after{
+        width: 80px;
+    }
+    .enterprise-list::before,.enterprise-list::after{
+        width: 80px;
+    }
+
+    .userfeedback-group .feedback-collapse{
+        display: none;
+    }
+    .collapse-icon{
+        display: flex;
+    }
+    .userfeedback-group li{
+        padding: 20px;
+    }
+
+    .app-section{
+        margin: 60px 0px 40px 0px;
+        padding: 80px 0px 80px 0px;
+        border-radius: 20px;
+    }
+    .app-section h2{
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+    .search{
+        margin-bottom: 16px;
+    }
+    .filter-group {
+		flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 48px;
+	}
+    .filter-group .filter-category{
+        order: 3;
+    }
+    .filter-category{
+        overflow-x: hidden;
+    }
+    .filter-category li{
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+    .start-use{
+        padding: 120px 0px 120px 0px;
+        margin-bottom: 40px;
+    }
+    .start-use h2{
+        font-size: 32px;
+        padding: 0px 75.5px 0px 75.5px;
+        margin-bottom: 32px;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-nav a{
+        order: 1;
+    }
+    .footer-nav ul{
+        order: 2;
+    }
+    .footer-nav img{
+        height: 40px;
+    }
+    .footer-navlist a{
+        font-size: 48px;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .footer-weblist{
+        order: 3;
+        flex-grow: 0;
+    }
+  }

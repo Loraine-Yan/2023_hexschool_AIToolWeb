@@ -10,7 +10,7 @@
         /* width: 24px;
         height: 24px; */
     }
-    .banner p{
+    .banner{
         font-size: 48px;
     }
     .motion{
@@ -19,7 +19,7 @@
         padding-bottom: 60px;
     }
     .motion img{
-        width: 117px;
+        width: calc(100%/3);
     }
     .section{
         padding: 60px 0px 60px 0px;
@@ -30,7 +30,7 @@
     }
     .service-title h2{
         font-size: 20px;
-        width: 414px;
+        width: 100%;
     }
     .service-title p{
         max-width: 351px;
@@ -39,6 +39,9 @@
     .service-group{
         flex-direction: column;
         gap: 12px;
+    }
+    .service-item{
+        width: 100%;
     }
     .enterprise-title{
         margin-bottom: 24px;
@@ -124,5 +127,6 @@
     .footer-weblist{
         order: 3;
         flex-grow: 0;
+        flex-wrap: wrap;
     }
   }

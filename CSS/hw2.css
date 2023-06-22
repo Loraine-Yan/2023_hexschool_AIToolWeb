@@ -1,6 +1,8 @@
 body{
     background-color: black;
 	font-family: 'Noto Sans TC', sans-serif;
+	color: #FFFFFF;
+	font-size: 16px;
 }
 
 .container{
@@ -8,7 +10,6 @@ body{
 	margin: 0 auto;
 	padding-left: 12px;
 	padding-right: 12px;
-	color: #FFFFFF;
 }
 
 .header{
@@ -23,7 +24,6 @@ body{
 }
 .nav-dropdown-menu{
 	text-decoration: none;
-	color: #FFFFFF;
 	width: 40px;
 	height: 40px;
 	padding: 6px 3px 6px 3px;
@@ -35,23 +35,16 @@ body{
 .navbar{
 	display: flex;
 }
-.navbar li{
-	margin-left: 20px;
-	/* padding-top: 12px;
-	padding-bottom: 12px; */
-}
 .navbar a{
-	font-size: 16px;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-decoration: none;
+	padding: 12px 10px 12px 10px;
 }
 
 .banner{
 	padding-top: 40px;
 	padding-bottom: 40px;
-}
-.banner p{
 	font-size: 120px;
 	font-weight: 900;
 }
@@ -64,8 +57,6 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-.start-btn a{
 	color: #FFFFFF;
 	text-decoration: none;
 	font-size: 20px;
@@ -97,8 +88,7 @@ body{
 .service-title h2{
 	font-size: 32px;
 	line-height: 120%;
-	width: 414px;
-	margin-left: 2px;
+	flex-shrink: 0;
 }
 .service-title p{
 	font-size: 48px;
@@ -112,6 +102,7 @@ body{
 	gap: 24px;
 }
 .service-item{
+	width: calc(100% / 3);
 	border: 1px solid #525252;
 	border-radius: 16px;
 	flex-grow: 1;
@@ -127,7 +118,6 @@ body{
 	font-weight: 900;
 }
 .service-item p{
-	font-size: 16px;
 	font-weight: 400;
 	line-height: 150%;
 }
@@ -197,6 +187,7 @@ body{
 	gap: 24px;
 }
 .userfeedback-group li{
+	width: calc(100% / 3);
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -209,15 +200,17 @@ body{
 	display: flex;
 }
 .userfeedback-body{
-	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
+	flex-grow: 1;
 }
 .userfeedback-footer{
 	display: flex;
 }
 .userfeedback-footer img{
 	margin-right: 16px;
+	max-width: 100%;
+	height: auto;
 }
 .user{
 	display: flex;
@@ -226,7 +219,6 @@ body{
 	line-height: 1.5;
 }
 .user-name{
-	font-size: 16px;
 	font-weight: 700;
 }
 .user-company{
@@ -256,12 +248,12 @@ body{
 
 .app-section{
 	max-width: 1920;
-	margin: 0 auto; 
+	margin: 0 auto;
+	color: #020202;
 	background-color: #FFFFFF;
 	border-radius: 160px;
 	margin: 80px 0px 80px 0px;
 	padding: 160px 0px 160px 0px;
-	font-size: 16px;
 	font-weight: 400;
 	line-height: 150%;
 }
@@ -295,7 +287,6 @@ body{
 	outline: none;
 	border: none;
 	background-color: #F2F2F2;
-	font-size: 16px;
 	font-weight: 400;
 	line-height: 150%;
 }
@@ -391,7 +382,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 16px;
     border-top: 1px solid #F2F2F2;
     padding: 20px 32px 20px 32px;
 }
@@ -407,6 +397,7 @@ body{
 .pagelist li{
 	width: 48px;
 	height: 48px;
+	color: #020202;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -423,9 +414,10 @@ body{
 }
 
 .start-use{
-	display: flex;
+	text-align: center;
+	/* display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; */
 	margin-bottom: 80px;
 	padding: 80px 0px 80px 0px;
 }
@@ -443,10 +435,6 @@ body{
 	color: #FFFFFF;
 	text-decoration: none;
 	padding: 20px 32px 20px 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 12px;
 }
 .start-use span{
 	font-size: 20px;
@@ -487,7 +475,6 @@ body{
 	align-items: center;
 }
 .footer p{
-	font-size: 16px;
 	font-weight: 700;
 	line-height: 150%;
 	padding-right: 80px;
@@ -502,7 +489,6 @@ body{
 	margin-right: 80px;
 }
 .footer-weblist li{
-	font-size: 16px;
 	font-weight: 700;
 	line-height: 150%;
 }
@@ -510,7 +496,7 @@ body{
 	text-decoration: none;
 	color: #FFFFFF;
 }
-.back-to-top a{
+.back-to-top{
 	display: flex;
 	gap: 12px;
 }
